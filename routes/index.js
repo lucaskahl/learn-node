@@ -4,7 +4,10 @@ const router = express.Router();
 // Do work here
 router.get('/', (req, res) => {
 
-  const pessoa = { name: 'Luke', age: 100};
+  const pessoa = {
+    name: 'Luke',
+    age: 100
+    };
 
   // res.send('Hey! It works!');
   res.json(pessoa);
